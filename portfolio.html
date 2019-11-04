@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -16,13 +16,14 @@
         <header>
             <div class="container">
                 <div class="name">
-                    Kelly Jones
+                    <a class="kelly" href="index.html">Kelly Jones</a>
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="index.html">About Me</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a class="link" href="index.html">About Me</a></li>
+                        <li><a class="link" href="portfolio.html">Portfolio</a></li>
+                        <li><a class="link" href="KJ_resume.pdf" target="_blank">Resume</a></li>
+                        <li><a class="link" href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -34,26 +35,68 @@
                 <hr>
                 <div class="imgagegrid">
                     <div class="img1">
-                        <div class="imgcontainer">
+                        <!-- <div class="imgcontainer">
                             <img src="assets/images/stock1.jpg" alt="stock photo" width="250" height="184">
                             <div class="text-block">
                                 <p>Project One</p>
                             </div>
+                        </div> -->
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/images/Hop.JPG" class="card-img-top" alt="project page">
+                            <div class="card-body">
+                                <h5 class="pro card-title">Hop To It</h5>
+                                <p style="text-align: center;">Materialize | JavaScript | APIs</p>
+                                <h6 class="card-text">A group project where I was in charge of front-end development.</h6>
+                                    <hr>
+                                <a href="https://github.com/kellyjones-jpg/Project-Hop-To-It"><img
+                                        src="assets/images/GitHub.png" height="30" width="30" target="_blank"></a>
+                                <a style="float:right" href="https://kellyjones-jpg.github.io/Project-Hop-To-It/"
+                                    class="btn btn-outline-secondary" target="_blank">View</a>
+                            </div>
                         </div>
                     </div>
                     <div class="img2">
-                        <div class="imgcontainer">
+                        <!-- <div class="imgcontainer">
                             <img src="assets/images/stock2.jpg" alt="stock photo" width="250" height="184">
                             <div class="text-block">
                                 <p>Project Two</p>
                             </div>
+                        </div> -->
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/images/quiz.JPG" class="card-img-top" alt="code quiz assignment page">
+                            <div class="card-body">
+                                <h5 class="pro card-title">Code Quiz</h5>
+                                <p style="text-align: center;">Bootstrap | JavaScript</p>
+                                <h6 class="card-text">A timer-based quiz application that stores high scores client-side.</h6>
+                                <hr>
+                                <a href="https://github.com/kellyjones-jpg/Code-Quiz"><img
+                                        src="assets/images/GitHub.png" height="30" width="30" target="_blank"></a>
+                                <a style="float:right" href="https://kellyjones-jpg.github.io/Code-Quiz/"
+                                    class="btn btn-outline-secondary" target="_blank">View</a>
+                            </div>
                         </div>
                     </div>
                     <div class="img3">
-                        <div class="imgcontainer">
+                        <!-- <div class="imgcontainer">
                             <img src="assets/images/stock3.jpg" alt="stock photo" width="250" height="184">
                             <div class="text-block">
                                 <p>Project Three</p>
+                            </div>
+                        </div> -->
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/images/password.JPG" class="card-img-top" alt="password generator assignment page">
+                            <div class="card-body">
+                                <h5 class="pro card-title">Password Generator</h5>
+                                <p style="text-align: center;">Bootstrap | JavaScript</p>
+                                <h6 class="card-text">An application that generates a random password based on user-selected criteria.</h6>
+                                <hr>
+                                <a href="https://github.com/kellyjones-jpg/Password-Generator"><img
+                                        src="assets/images/GitHub.png" height="30" width="30" target="_blank"></a>
+                                <a style="float:right" href="https://kellyjones-jpg.github.io/Password-Generator/"
+                                    class="btn btn-outline-secondary" target="_blank">View</a>
                             </div>
                         </div>
                     </div>
@@ -64,10 +107,17 @@
 
         <footer>
             <div class="container">
-                <p>Copyright &copy;</p>
+                <p>Copyright &copy;
+                    <a href="https://github.com/kellyjones-jpg"><img style="float:right" src="assets/images/GitHub.png"
+                            height="30" width="30"></a>
+                    <a href="https://www.linkedin.com/in/kelly-jones-7bb641114/"><img style="float:right"
+                            src="assets/images/favicon.png" height="30" width="30"></a>
+                </p>
             </div>
         </footer>
     </div>
+
+    <script src="assets/script.js"></script>
 </body>
 
 </html>
