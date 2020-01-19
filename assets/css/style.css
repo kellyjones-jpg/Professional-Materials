@@ -173,6 +173,25 @@ li:not(:first-child):before {
     padding: 20px;
   }
 
+  .img4 {
+    float: left;
+    border-color:#777777;
+    padding: 20px;
+  }
+
+  .img5 {
+    clear: both;
+    float: left;
+    border-color:#777777;
+    padding: 20px;
+  }
+
+  .img6 {
+    float: left;
+    border-color:#777777;
+    padding: 20px;
+  }
+
 .imgcontainer {
   position: relative;
 }
